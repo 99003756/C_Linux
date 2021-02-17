@@ -29,6 +29,6 @@ int main()
 
 /* Write all the test functions */ 
 void test_breaker(void) {
-  TEST_ASSERT_EQUAL("$Welcome to LTTS;", add("Garbage$Welcome to LTTS;"));
+  TEST_ASSERT_EQUAL("$Welcome to LTTS;", breaker("Garbage$Welcome to LTTS;"));
   //TEST_ASSERT_EQUAL(50, add(5, 10));
 }
