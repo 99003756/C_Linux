@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch",
+            "name": "check.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "enter program name, for example ${workspaceFolder}/a.exe",
@@ -13,7 +13,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "console": "externalTerminal",
+          // "console": "externalTerminal",
             "MIMode": "gdb",
             "miDebuggerPath": "/path/to/gdb",
             "setupCommands": [
